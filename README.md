@@ -10,6 +10,7 @@ Associates - Usana associates or business owners
 
 Our online assets need to have continuity.
 Our build time is 2 to 3 weeks, we can assist with shortening this by providing pre built front end components.
+We don't need to duplicate work, if there is something already built we should use it.
 Standards for dotcom and other online assets need to be set for creative as they will be creating images and videos for new campaigns as they come. 
 Associate personal sites may attempt to mimic our designs. We want to provide a guideline for them to follow to lend credibility.
 
