@@ -3,7 +3,9 @@
 ## Who’s it for?
 
 IT - Our in house IT team
+
 Creative - Our in house creative team
+
 Associates - Usana associates or business owners
 
 # Why build it? What’s the problem?
