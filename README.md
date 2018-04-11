@@ -8,10 +8,11 @@ Associates - Usana associates or business owners
 
 # Why build it? What’s the problem?
 
-Our online assets need to have continuity
+Our online assets need to have continuity.
 Our build time is 2 to 3 weeks, we can assist with shortening this by providing pre built front end components.
-Standards for dotcom and other online assets need to be set for creative as they will be creating images and videos for new campaigns as they come 
+Standards for dotcom and other online assets need to be set for creative as they will be creating images and videos for new campaigns as they come. 
 Associate personal sites may attempt to mimic our designs. We want to provide a guideline for them to follow to lend credibility.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
 ## Development server
