@@ -102,5 +102,6 @@ app-code-snippets{
 
 .section-card{
   display: flex;
+  flex-direction: column;
 }
 
