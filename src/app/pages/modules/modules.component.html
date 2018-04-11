@@ -1,0 +1,18 @@
+
+<div id="modules">
+  <app-sidebar [data]="data"></app-sidebar>
+      <div [ngSwitch]="page">
+        <app-footer-display *ngSwitchCase="'footer'" ></app-footer-display>
+        <app-button *ngSwitchCase="'button'"></app-button>
+        <app-card *ngSwitchCase="'card'"></app-card>
+        <app-hero *ngSwitchCase="'hero'"></app-hero>
+        <app-hero-video *ngSwitchCase="'hero-video'"></app-hero-video>
+        <app-button *ngSwitchCase="'buttons'"></app-button>
+        <app-tabs *ngSwitchCase="'tabs'"></app-tabs>
+        <app-form-elements *ngSwitchCase="'form-elements'"></app-form-elements>
+        <app-modal *ngSwitchCase="'modals'"></app-modal>
+      </div>
+  </div>
+
+
+

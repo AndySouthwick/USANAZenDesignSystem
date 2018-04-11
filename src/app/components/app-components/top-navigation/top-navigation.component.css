@@ -1,0 +1,22 @@
+nav{
+  background-color: rgba(0, 0, 0, .75);
+  height: 80px;
+  padding-top:40px;
+}
+.logo{
+  margin-top:-25px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+ul a{
+  color: white;
+}
+ul a:hover{
+  text-decoration: none;
+}
+ul li{
+  margin-left: 50px;
+
+}

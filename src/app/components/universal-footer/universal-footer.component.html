@@ -1,0 +1,36 @@
+<div *ngIf="data">
+  <!-- <u-lead-collector></u-lead-collector> -->
+  <div class="logo-container">
+    <img class="img-fluid" src="assets/images/usana-full-logo.png">
+  </div>
+  <div class="container">
+    <div class="row footer-links">
+      <div class="footer-link-column col-md-3" *ngFor="let item of data.companyLinkses; index as i;">
+        <div class="column-title">{{item.name}}</div>
+        <div [ngbCollapse]="i !== 0 ? !isCollapsed[i] : isCollapsed[i]">
+          <div *ngFor="let child of item.localLinkses" class="children">
+            <a href="{{child.url}}" target="{{child.target}}">{{child.name}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-link-column col-md-3">
+        <div class="column-title">Social Media</div>
+        <a href="{{social.url}}" *ngFor="let social of data.socialMedias; index as i;" target="_blank"><i class="fa fa-fw fa-{{social.name}} fa-lg"></i></a>
+      </div>
+    </div>
+    <div class="disclaimer" >
+      <div [innerHTML]="data.disclaimer1"></div>
+      <div [innerHTML]="data.disclaimer2"></div>
+      <div [innerHTML]="data.disclaimer3"></div>
+      <div [innerHTML]="data.disclaimer4"></div>
+      <div [innerHTML]="data.copyright"></div>
+      <div *ngFor="let legal of data.legals; index as i;">
+        <a href="{{legal.url}}" class="legal-link">{{legal.name}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- remove this for production use -->
+
+<!-- end remove section -->

@@ -1,0 +1,24 @@
+<div *ngIf="data">
+    <ngb-tabset class="snippet">
+      <ngb-tab title="RULES">
+        <ng-template ngbTabContent >
+          <div [innerHTML]="data.rules" ></div>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="HTML" >
+        <ng-template ngbTabContent>
+          <PRE  >
+            {{data.html}}
+          </PRE>
+
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="CSS">
+        <ng-template ngbTabContent >
+          <PRE [innerHTML]="data.css" highlight-js-content=".highlight" >
+          </PRE>
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
+</div>
+
