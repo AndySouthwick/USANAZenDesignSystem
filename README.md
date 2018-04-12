@@ -1,5 +1,5 @@
 # USANAZenDesignSystem
-  find the design system live at https://cranky-lewin-6f6e0c.netlify.com
+  find the design system live at https://elated-tereshkova-599ed7.netlify.com/
 ## Who’s it for?
 
 IT - Our in house IT team

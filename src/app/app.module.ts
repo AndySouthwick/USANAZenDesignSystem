@@ -34,14 +34,18 @@ import { TabsComponent } from './components/tabs/tabs.component';
 import { FormElementsComponent } from './components/form-elements/form-elements.component';
 import { TooltipComponent } from './components/tooltip/tooltip.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { BrandVoiceComponent } from './pages/brand-voice/brand-voice.component';
+import { NavigationMenuesComponent } from './components/navigation-menues/navigation-menues.component';
 
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'angular-modules', component: ModulesComponent},
   {path: 'angular-modules/:id', component: ModulesComponent},
+  {path: 'angular-modules/:id/:id', component: ModulesComponent},
   {path: 'design-elements', component: DesignelementsComponent},
   {path: 'design-elements/:id', component: DesignelementsComponent},
+  {path: 'brand-voice', component: BrandVoiceComponent},
 ]
 @NgModule({
   declarations: [
@@ -72,6 +76,8 @@ const appRoutes: Routes = [
     FormElementsComponent,
     TooltipComponent,
     ModalComponent,
+    BrandVoiceComponent,
+    NavigationMenuesComponent,
   ],
   imports: [
     AngularFontAwesomeModule,
