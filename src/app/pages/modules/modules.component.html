@@ -1,7 +1,9 @@
 
 <div id="modules">
-  <app-sidebar [data]="data"></app-sidebar>
+
+  <app-sidebar [data]="data" ></app-sidebar>
       <div [ngSwitch]="page">
+        <app-intro-info  *ngSwitchCase="" [data]="introData"></app-intro-info>
         <app-footer-display *ngSwitchCase="'footer'" ></app-footer-display>
         <app-button *ngSwitchCase="'button'"></app-button>
         <app-card *ngSwitchCase="'card'"></app-card>
@@ -13,6 +15,5 @@
         <app-modal *ngSwitchCase="'modals'"></app-modal>
       </div>
   </div>
-
 
 

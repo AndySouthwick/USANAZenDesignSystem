@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./brand-voice.component.scss']
 })
 export class BrandVoiceComponent implements OnInit {
-
+data: {}
   constructor() { }
 
   ngOnInit() {
+  this.data = {
+    title: 'Brand Voice'
+  };
   }
 
 }

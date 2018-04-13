@@ -36,6 +36,7 @@ import { TooltipComponent } from './components/tooltip/tooltip.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { BrandVoiceComponent } from './pages/brand-voice/brand-voice.component';
 import { NavigationMenuesComponent } from './components/navigation-menues/navigation-menues.component';
+import { IntroInfoComponent } from './components/app-components/intro-info/intro-info.component';
 
 
 const appRoutes: Routes = [
@@ -78,6 +79,7 @@ const appRoutes: Routes = [
     ModalComponent,
     BrandVoiceComponent,
     NavigationMenuesComponent,
+    IntroInfoComponent,
   ],
   imports: [
     AngularFontAwesomeModule,

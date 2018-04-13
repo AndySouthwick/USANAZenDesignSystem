@@ -11,8 +11,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.data = {
-      title: 'USANA ZEN DIGITAL DESIGN SYSTEM'
+      title: 'USANA ZEN <strong>#DESIGNSYSTEM</strong>'
     };
+
   }
 
 }

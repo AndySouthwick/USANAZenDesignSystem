@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
 
 html, .root {  font-size: 16px;  line-height: 22px; }
-body, .article {  font-family: 'Montserrat',sans-serif;  font-size: 1rem; line-height: 1.375rem; }
-h1, .h1 { font-size: 5.3594rem; line-height: 6.875rem; margin-top: 1.375rem; margin-bottom: 2.75rem; }
+body, .article {  font-family: 'Montserrat',sans-serif!important;  font-size: 1rem; line-height: 1.375rem; }
+h1, .h1 { font-size: 5.3594rem; line-height: 6.875rem; margin-top: 1.375rem; margin-bottom: 2.75rem; font-weight: 100}
+h1 strong{font-weight: 600}
 h2, .h2 { font-size: 3.0625rem; line-height: 4.125rem; margin-top: 1.375rem; margin-bottom: 1.375rem; }
 h3, .h3 { font-size: 1.75rem; line-height: 2.3625rem; margin-top: 1.375rem; margin-bottom: 0rem; }
 
@@ -17,7 +18,6 @@ a, b, i, strong, em, small, code {  line-height: 0; }
 sub, sup {  line-height: 0; position: relative; vertical-align: baseline; }
 sup {  top: -0.5em; }
 sub {  bottom: -0.25em; }
-
 ul a{
   color: #333;
 }
